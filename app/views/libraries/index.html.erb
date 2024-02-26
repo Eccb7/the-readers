@@ -1,0 +1,25 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Libraries</h1>
+
+<p>Number of libraries: <%= @libraries.count %></p>
+
+<div id="libraries">
+  <% @libraries.each do |library| %>
+    <div id="<%= dom_id library %>">
+      <p>
+        <%= link_to library.name, library %>
+      </p>
+
+      <p>
+        <strong>Year:</strong>
+        <%= library.year %>
+      </p>
+
+    </div>
+  <% end %>
+</div>
+
+<%= link_to "New library", new_library_path %>
+<br>
+<%= link_to 'list of books', books_path %>
