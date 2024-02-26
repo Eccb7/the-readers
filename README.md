@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 <a name="readme-top"></a>
 
 <div align="center">
@@ -28,7 +32,7 @@
 
 # 📖 Fast Recipes <a name="about-project"></a>
 
-"This **recipe app** allows users to create, share, and manage their favorite recipes, with a focus on ingredient management and user-friendly navigation. It's a platform for home cooks and food enthusiasts to discover new dishes and connect with others who share their passion for cooking."
+"**The readers** app is a web application built using Ruby on Rails, allowing users to manage and explore a collection of books, including features for adding, editing, and deleting book entries with an optional user authentication system."
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +46,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-.....
+1. **Book Management:**
+   - Users can efficiently manage their book collection, including adding new books with details like title, author, and description, as well as updating and deleting existing entries.
+
+2. **User Authentication:**
+   - For personalized experiences, the app supports user authentication, allowing individuals to create accounts, log in, and access features like saving and maintaining their own curated booklists.
+
+3. **Responsive Design with Styling:**
+   - The app incorporates responsive design principles and styling, providing an aesthetically pleasing and user-friendly interface, potentially leveraging CSS frameworks for improved visual presentation.
 
 <!-- GETTING STARTED -->
 
@@ -112,7 +123,7 @@ If you like this project, give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the support I've received so far.
+I would like to thank The University Of Helsinki for the support I've received so far.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
