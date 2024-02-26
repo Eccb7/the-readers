@@ -1,0 +1,17 @@
+<div id="<%= dom_id book %>">
+  <p>
+    <strong>Name:</strong>
+    <%= link_to book.name, book %>
+  </p>
+
+  <p>
+    <strong>Genre:</strong>
+    <%= book.genre %>
+  </p>
+
+  <p>
+    <strong>Library:</strong>
+    <%= book.library.name %>
+  </p>
+
+</div>
