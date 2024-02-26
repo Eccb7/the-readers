@@ -1,0 +1,19 @@
+<div id="<%= dom_id library %>">
+<p>number of books: <%= @library.books.count %> </p>
+  <p>
+    <strong>Name:</strong>
+    <%= library.name %>
+  </p>
+
+  <p>
+    <strong>Year:</strong>
+    <%= library.year %>
+  </p>
+
+  <p>
+  <% library.books.each do |book| %>
+    <%= link_to book.name %>
+  <% end %>
+  </p>
+
+</div>
